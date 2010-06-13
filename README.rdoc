@@ -1,11 +1,12 @@
-= Ryan Bates Dot Files
+= Nick Clarks Dot Files
 
 These are config files to set up a system the way I like it.
+Most of this readme is left as Ryan Bates created it. Thanks Ryan!
 
 
 == Installation
 
-  git clone git://github.com/ryanb/dotfiles ~/.dotfiles
+  git clone git://github.com/NickClark/dotfiles ~/.dotfiles
   cd ~/.dotfiles
   rake install
 
