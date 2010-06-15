@@ -2,14 +2,20 @@
 
 These are config files to set up a system the way I like it.
 Most of this readme is left as Ryan Bates created it. Thanks Ryan!
+This also uses oh-my-zsh and akitas vimfiles which are included as submodules.
 
 
 == Installation
 
   git clone git://github.com/NickClark/dotfiles ~/.dotfiles
   cd ~/.dotfiles
+  git submodule init
+  git submodule update
   rake install
 
+  Note: you may also have to go into the vim folder and call repeat steps 3 and 4 ie:
+  git submodule init
+  git submodule update
 
 == Environment
 
@@ -22,6 +28,13 @@ the following command.
 
 
 == Features
+
+Refer to the appropriate submodules README on github for feature listings and instructions.
+
+Keys you should know about in vim:
+\p - open NerdTree
+\b - open Buffer Explorer
+\t - open FuzzyFinder
 
 I normally place all of my coding projects in ~/code, so this directory 
 can easily be accessed (and tab completed) with the "c" command.
