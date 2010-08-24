@@ -28,5 +28,10 @@ alias scaffold='script/generate nifty_scaffold'
 alias migrate='rake db:migrate db:test:clone'
 alias rst='touch tmp/restart.txt'
 
+#rails 3
+alias rc='rails console'
+alias rs='rails server'
+alias rg='rails generate'
+
 # commands starting with % for pasting from web
 alias %=' '
